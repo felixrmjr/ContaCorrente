@@ -1,0 +1,170 @@
+{
+	"id": "882d0bd5-7cf5-b586-3d9b-fa15618da75c",
+	"name": "WRModelo",
+	"description": "",
+	"order": [
+		"7036c8cc-1f53-24b5-c0d1-01d5201c77b0",
+		"7ea63ff4-2375-62f8-2a7e-92e80a3a04a3",
+		"4ee44324-e07a-feb2-7e85-f3584d38b08b",
+		"339277cb-828b-edff-6539-8e4002ea4aca",
+		"6f23355e-c4e8-b498-7857-6c5c60223aad"
+	],
+	"folders": [],
+	"timestamp": 1569612841922,
+	"owner": "1656402",
+	"public": false,
+	"requests": [
+		{
+			"id": "339277cb-828b-edff-6539-8e4002ea4aca",
+			"headers": "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjQzNWQ4OTkyZDZkNTM2ZjAwYjEyMWY0Nzk3YzEwNzk2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NzA0NjI1NDMsImV4cCI6MTU3MDU0ODk0MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1NTAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTUwMC9yZXNvdXJjZXMiLCJXUk1vZGVsb0FwaU1zIl0sImNsaWVudF9pZCI6IldSTW9kZWxvQXBpTXMiLCJzdWIiOiIxIiwiYXV0aF90aW1lIjoxNTcwNDYyNTQzLCJpZHAiOiJsb2NhbCIsImlkIjoiMSIsImVtYWlsIjoiYWRtaW4iLCJsb2dpbiI6ImFkbWluIiwic2NvcGUiOlsiV1JNb2RlbG9BcGlNcyIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJjdXN0b20iXX0.ioza0JKj171tIT9L3FoFsbEaPFxjY6GxBPuDw7Tx5qmcbYJGuptvXAwT4TvWpJWLf2yS0hx3WKaLR1oxklS_alobQHZfolcO6wWkT2RPpJqRNA7wIuqLHdtQ5yWUG6yPDUFKUG0QBuvgxaRS2JjJBLUyXkRmj_qjDjVMmW9hA67w2cQYXRQTKhFyd53C8pOMNzrqNGbWPg3mJs0LF46LiHy8RTY9IVDjfH9C34-z8lYjcf3WEmLxt7zSGAtzPLT85aan525A-mr6u-gfBKJkZuEvLH9pCt8wUcXBHeHUezFwaM5VS5J4dDTIU8Y8MJAWJYRnLGNr80zpKH5pEBqb-g\nContent-Type: application/json\n",
+			"url": "http://localhost:5500/pt-br/api/contacorrente/debito",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570462607165,
+			"name": "Debito",
+			"description": "Debito",
+			"collectionId": "882d0bd5-7cf5-b586-3d9b-fa15618da75c",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"contaOrigem\": \"4966519\",\r\n\t\"contaDestino\": \"123456\",\r\n\t\"tipo\": \"1\",\r\n\t\"valor\": \"200\"\r\n}"
+		},
+		{
+			"id": "4ee44324-e07a-feb2-7e85-f3584d38b08b",
+			"headers": "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjQzNWQ4OTkyZDZkNTM2ZjAwYjEyMWY0Nzk3YzEwNzk2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NzA0NjI1NDMsImV4cCI6MTU3MDU0ODk0MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1NTAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTUwMC9yZXNvdXJjZXMiLCJXUk1vZGVsb0FwaU1zIl0sImNsaWVudF9pZCI6IldSTW9kZWxvQXBpTXMiLCJzdWIiOiIxIiwiYXV0aF90aW1lIjoxNTcwNDYyNTQzLCJpZHAiOiJsb2NhbCIsImlkIjoiMSIsImVtYWlsIjoiYWRtaW4iLCJsb2dpbiI6ImFkbWluIiwic2NvcGUiOlsiV1JNb2RlbG9BcGlNcyIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJjdXN0b20iXX0.ioza0JKj171tIT9L3FoFsbEaPFxjY6GxBPuDw7Tx5qmcbYJGuptvXAwT4TvWpJWLf2yS0hx3WKaLR1oxklS_alobQHZfolcO6wWkT2RPpJqRNA7wIuqLHdtQ5yWUG6yPDUFKUG0QBuvgxaRS2JjJBLUyXkRmj_qjDjVMmW9hA67w2cQYXRQTKhFyd53C8pOMNzrqNGbWPg3mJs0LF46LiHy8RTY9IVDjfH9C34-z8lYjcf3WEmLxt7zSGAtzPLT85aan525A-mr6u-gfBKJkZuEvLH9pCt8wUcXBHeHUezFwaM5VS5J4dDTIU8Y8MJAWJYRnLGNr80zpKH5pEBqb-g\nContent-Type: application/json\n",
+			"url": "http://localhost:5500/pt-br/api/contacorrente/transferencia",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570462592871,
+			"name": "Transferencia",
+			"description": "Transferencia",
+			"collectionId": "882d0bd5-7cf5-b586-3d9b-fa15618da75c",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"contaOrigem\": \"4966519\",\r\n\t\"contaDestino\": \"123456\",\r\n\t\"tipo\": \"1\",\r\n\t\"valor\": \"1000\"\r\n}"
+		},
+		{
+			"id": "6f23355e-c4e8-b498-7857-6c5c60223aad",
+			"headers": "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjQzNWQ4OTkyZDZkNTM2ZjAwYjEyMWY0Nzk3YzEwNzk2IiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NzA0NjI1NDMsImV4cCI6MTU3MDU0ODk0MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1NTAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTUwMC9yZXNvdXJjZXMiLCJXUk1vZGVsb0FwaU1zIl0sImNsaWVudF9pZCI6IldSTW9kZWxvQXBpTXMiLCJzdWIiOiIxIiwiYXV0aF90aW1lIjoxNTcwNDYyNTQzLCJpZHAiOiJsb2NhbCIsImlkIjoiMSIsImVtYWlsIjoiYWRtaW4iLCJsb2dpbiI6ImFkbWluIiwic2NvcGUiOlsiV1JNb2RlbG9BcGlNcyIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJjdXN0b20iXX0.ioza0JKj171tIT9L3FoFsbEaPFxjY6GxBPuDw7Tx5qmcbYJGuptvXAwT4TvWpJWLf2yS0hx3WKaLR1oxklS_alobQHZfolcO6wWkT2RPpJqRNA7wIuqLHdtQ5yWUG6yPDUFKUG0QBuvgxaRS2JjJBLUyXkRmj_qjDjVMmW9hA67w2cQYXRQTKhFyd53C8pOMNzrqNGbWPg3mJs0LF46LiHy8RTY9IVDjfH9C34-z8lYjcf3WEmLxt7zSGAtzPLT85aan525A-mr6u-gfBKJkZuEvLH9pCt8wUcXBHeHUezFwaM5VS5J4dDTIU8Y8MJAWJYRnLGNr80zpKH5pEBqb-g\nContent-Type: application/json\n",
+			"url": "http://localhost:5500/pt-br/api/contacorrente/credito",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570462614315,
+			"name": "Credito",
+			"description": "Credito",
+			"collectionId": "882d0bd5-7cf5-b586-3d9b-fa15618da75c",
+			"responses": [],
+			"rawModeData": "{\r\n\t\"contaOrigem\": \"4966519\",\r\n\t\"contaDestino\": \"123456\",\r\n\t\"tipo\": \"1\",\r\n\t\"valor\": \"100\"\r\n}"
+		},
+		{
+			"id": "7036c8cc-1f53-24b5-c0d1-01d5201c77b0",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5500/connect/token",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "882d0bd5-7cf5-b586-3d9b-fa15618da75c",
+			"data": [
+				{
+					"key": "username",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "WRModeloApiMs",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "c157b1aa6eb86921af9ba9aba8ced103",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scope",
+					"value": "WRModeloApiMs offline_access",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Token",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569612849331,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "7ea63ff4-2375-62f8-2a7e-92e80a3a04a3",
+			"headers": "Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjhkMjdmMDE5OTlhZDlmMDUxYWU2NzhmMzcyMDAxZDRhIiwidHlwIjoiSldUIn0.eyJuYmYiOjE1NzA0NTc1NjEsImV4cCI6MTU3MDU0Mzk2MSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1NTAwIiwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTUwMC9yZXNvdXJjZXMiLCJXUk1vZGVsb0FwaU1zIl0sImNsaWVudF9pZCI6IldSTW9kZWxvQXBpTXMiLCJzdWIiOiIxIiwiYXV0aF90aW1lIjoxNTcwNDU3NTYwLCJpZHAiOiJsb2NhbCIsImlkIjoiMSIsImVtYWlsIjoiYWRtaW4iLCJsb2dpbiI6ImFkbWluIiwic2NvcGUiOlsiV1JNb2RlbG9BcGlNcyIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJjdXN0b20iXX0.oJr4K16F1Ycx0-a2ywsZ310mnDeLFy6piNKYl9WtkpxjvScHBllhJjCnKGFXLc1jgSL9Py4f5cd_c82Rg_7AtOdXPPhcBqM7FFpTpFYW373llV654oHlVIUIKIFuDC9i-gSgErh7BKUodcTaixBQyE4c_jBRz_9mfl6g-ETt9JYnKE50amKcwfy6GxMdAR9kOPT-j5o8h-Tbo6ULsd5NgPxOgVLhf-vVhV3Xb3NNuVkUP1MwG53vjU0r8miapUDpmYJ3GUyVTRy_96Mpc6_-xOru7oYLKuHpdTBaBmcNFKOAO3p9I9OKS2rmHqkxCCQtqXhmp7XWBa5ZhkZhvhZBpw\nContent-Type: application/json\n",
+			"url": "http://localhost:5500/pt-br/api/contacorrente/criar",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1570459821187,
+			"name": "Criar Conta Corrente",
+			"description": "Criar ContaCorrente",
+			"collectionId": "882d0bd5-7cf5-b586-3d9b-fa15618da75c",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}

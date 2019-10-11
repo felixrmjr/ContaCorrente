@@ -1,0 +1,178 @@
+[
+  {
+    "Key": "campoObrigatorio",
+    "Description": [ { "0": "Campo" } ],
+    "Values": {
+      "pt-BR": "{0} é obrigatório.",
+      "en": "{0} is required.",
+      "es": "{0} es obligatorio."
+    }
+  },
+  {
+    "Key": "campoObrigatorioId",
+    "Description": [ { "0": "Campo" } ],
+    "Values": {
+      "pt-BR": "{0}Id é obrigatório.",
+      "en": "{0}Id is required.",
+      "es": "{0}Id es obligatorio."
+    }
+  },
+  {
+    "Key": "formatoInvalido",
+    "Description": [ { "0": "Campo" } ],
+    "Values": {
+      "pt-BR": "{0} com formato inválido(a).",
+      "en": "{0} with invalid format.",
+      "es": "{0} con formato no válido."
+    }
+  },
+  {
+    "Key": "campoInvalido",
+    "Description": [ { "0": "Campo" } ],
+    "Values": {
+      "pt-BR": "{0} inválido(a).",
+      "en": "{0} invalid.",
+      "es": "{0 no válido."
+    }
+  },
+  {
+    "Key": "registroJaCadastrado",
+    "Description": [ { "0": "Campo" } ],
+    "Values": {
+      "pt-BR": "{0} já cadastrado(a).",
+      "en": "{0} already registered.",
+      "es": "{0} ya registrado."
+    }
+  },
+  {
+    "Key": "tamanhoMaximoCampo",
+    "Description": [
+      { "0": "Campo" },
+      { "1": "quantidade de caracteres" }
+    ],
+    "Values": {
+      "pt-BR": "{0} não pode ter mais que {1} caracteres.",
+      "en": "{0} can not be longer than {1} characters.",
+      "es": "{0} no puede tener más de {1} caracteres."
+    }
+  },
+  {
+    "Key": "campoNulo",
+    "Description": [ { "0": "Campo" } ],
+    "Values": {
+      "pt-BR": "O {0} está nulo.",
+      "en": "The {0} is null.",
+      "es": "El {0} es nulo."
+    }
+  },
+  {
+    "Key": "campoNuloId",
+    "Description": [ { "0": "Campo" } ],
+    "Values": {
+      "pt-BR": "O {0}Id está nulo.",
+      "en": "The {0}Id is null.",
+      "es": "El {0}Id es nulo."
+    }
+  },
+  {
+    "Key": "menorOuIgual",
+    "Description": [
+      { "0": "Campo" },
+      { "1": "valor" }
+    ],
+    "Values": {
+      "pt-BR": "{0} menor ou igual a {1}.",
+      "en": "{0} less than or equal to {1}",
+      "es": "{0} menor o igual a {1}"
+    }
+  },
+  {
+    "Key": "menorOuIgualId",
+    "Description": [
+      { "0": "Campo" },
+      { "1": "valor" }
+    ],
+    "Values": {
+      "pt-BR": "{0}Id menor ou igual a {1}.",
+      "en": "{0}Id less than or equal to {1}",
+      "es": "{0}Id menor o igual a {1}"
+    }
+  },
+  {
+    "Key": "naoPodeSerMaiorQue",
+    "Description": [
+      { "0": "Campo" },
+      { "1": "campo2" }
+    ],
+    "Values": {
+      "pt-BR": "{0} não pode ser maior que {1}.",
+      "en": "{0} can not be greater than {1}",
+      "es": "{0}no puede ser mayor que {1}"
+    }
+  },
+  {
+    "Key": "tamanhoDoCampoMaiorOuMenor",
+    "Description": [
+      { "0": "Campo" },
+      { "1": "campo2" },
+      { "2": "campo3" }
+    ],
+    "Values": {
+      "pt-BR": "O tamanho do campo {0} não pode ser maior que {1} ou menor que {2}.",
+      "en": "The size of field {0} can not be greater than {1} or less than {2}.",
+      "es": "El tamaño del campo {0} no puede ser mayor que {1} o menor que {2}."
+    }
+  },
+  {
+    "Key": "dataInicio",
+    "Values": {
+      "pt-BR": "Data Início",
+      "en": "Date Home",
+      "es": "Fecha de inicio"
+    }
+  },
+  {
+    "Key": "dataFim",
+    "Values": {
+      "pt-BR": "Data Fim",
+      "en": "End Date",
+      "es": "Fecha Fin"
+    }
+  },
+  {
+    "Key": "dataAtual",
+    "Values": {
+      "pt-BR": "Data Fim",
+      "en": "End Date",
+      "es": "Fecha Fin"
+    }
+  },
+  {
+    "Key": "ocorreuUmErro",
+    "Values": {
+      "pt-BR": "Ocorreu um erro, favor tente novamente",
+      "en": "An error occurred, please try again",
+      "es": "Se ha producido un error, por favor inténtelo de nuevo"
+    }
+  },
+  {
+    "Key": "ativo",
+    "Values": {
+      "pt-BR": "Ativo",
+      "en": "Active",
+      "es": "Activo"
+    }
+  },
+  {
+    "Key": "contasIguais",
+    "Description": [
+      { "0": "campo1" },
+      { "1": "campo2" }
+    ],
+    "Values": {
+      "pt-BR": "A conta de origem {0} não pode ser igual a conta de destino {1}.",
+      "en": "Source account {0} cannot be the same as destination account {1}",
+      "es": "La cuenta de origen {0} no puede ser la misma que la cuenta de destino {1}"
+    }
+  }
+]
